@@ -1,0 +1,46 @@
+# ProcessInstanceQueryRequest
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Start** | **int32** |  | [optional] [default to null]
+**Size** | **int32** |  | [optional] [default to null]
+**Sort** | **string** |  | [optional] [default to null]
+**Order** | **string** |  | [optional] [default to null]
+**ProcessInstanceId** | **string** |  | [optional] [default to null]
+**ProcessInstanceIds** | **[]string** |  | [optional] [default to null]
+**ProcessInstanceName** | **string** |  | [optional] [default to null]
+**ProcessInstanceNameLike** | **string** |  | [optional] [default to null]
+**ProcessInstanceNameLikeIgnoreCase** | **string** |  | [optional] [default to null]
+**ProcessBusinessKey** | **string** |  | [optional] [default to null]
+**ProcessBusinessKeyLike** | **string** |  | [optional] [default to null]
+**ProcessDefinitionId** | **string** |  | [optional] [default to null]
+**ProcessDefinitionIds** | **[]string** |  | [optional] [default to null]
+**ProcessDefinitionKey** | **string** |  | [optional] [default to null]
+**ProcessDefinitionKeys** | **[]string** |  | [optional] [default to null]
+**ProcessDefinitionName** | **string** |  | [optional] [default to null]
+**ProcessDefinitionCategory** | **string** |  | [optional] [default to null]
+**ProcessDefinitionVersion** | **int32** |  | [optional] [default to null]
+**ProcessDefinitionEngineVersion** | **string** |  | [optional] [default to null]
+**DeploymentId** | **string** |  | [optional] [default to null]
+**DeploymentIdIn** | **[]string** |  | [optional] [default to null]
+**SuperProcessInstanceId** | **string** |  | [optional] [default to null]
+**SubProcessInstanceId** | **string** |  | [optional] [default to null]
+**ExcludeSubprocesses** | **bool** |  | [optional] [default to null]
+**ActiveActivityId** | **string** |  | [optional] [default to null]
+**ActiveActivityIds** | **[]string** |  | [optional] [default to null]
+**InvolvedUser** | **string** |  | [optional] [default to null]
+**StartedBy** | **string** |  | [optional] [default to null]
+**StartedBefore** | [**time.Time**](time.Time.md) |  | [optional] [default to null]
+**StartedAfter** | [**time.Time**](time.Time.md) |  | [optional] [default to null]
+**Suspended** | **bool** |  | [optional] [default to null]
+**IncludeProcessVariables** | **bool** |  | [optional] [default to null]
+**Variables** | [**[]QueryVariable**](QueryVariable.md) |  | [optional] [default to null]
+**CallbackId** | **string** |  | [optional] [default to null]
+**CallbackType** | **string** |  | [optional] [default to null]
+**TenantId** | **string** |  | [optional] [default to null]
+**TenantIdLike** | **string** |  | [optional] [default to null]
+**WithoutTenantId** | **bool** |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

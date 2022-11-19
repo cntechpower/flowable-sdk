@@ -1,0 +1,17 @@
+# RestFormProperty
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Id** | **string** |  | [optional] [default to null]
+**Name** | **string** |  | [optional] [default to null]
+**Type_** | **string** |  | [optional] [default to null]
+**Value** | **string** |  | [optional] [default to null]
+**Readable** | **bool** |  | [optional] [default to null]
+**Writable** | **bool** |  | [optional] [default to null]
+**Required** | **bool** |  | [optional] [default to null]
+**DatePattern** | **string** |  | [optional] [default to null]
+**EnumValues** | [**[]RestEnumFormProperty**](RestEnumFormProperty.md) |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
